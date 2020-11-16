@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+
+\bibitem{li2018h}
+Xiaomeng Li, Hao Chen, Xiaojuan Qi, Qi~Dou, Chi-Wing Fu, and Pheng-Ann Heng.
+\newblock H-denseunet: hybrid densely connected unet for liver and tumor
+  segmentation from ct volumes.
+\newblock {\em IEEE transactions on medical imaging}, 37(12):2663--2674, 2018.
+
+\end{thebibliography}
