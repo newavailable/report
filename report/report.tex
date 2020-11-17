@@ -12,19 +12,33 @@
 
 \section{Introduction}
 
-p1 introduces three parts:the usage of segmentation in medical image field,segmentation,
-including 2D 3D and the application of image of segmentation, and the business value
+Medical image is an essential auxiliary means in modern medical therapy.
+For example, magnetic resonance imaging (MRI), computed tomography (CT), and digital mammography are widely used to diagnose diseases and map objects in anatomy.\cite{pham2000current}
+The collected image can be either 2-dimensional (such as microscope images) or 3-dimensional (CT images).
+There is no obvious difference between these two types of image processing for human beings, while for machines, the 2D image operation is much simpler.
 
-p2 introduces some problem traditional image segmentation method
+With the development of deep learning, image processing technology also makes much progress.
+Although image processing has been studied in the past using various traditional computer vision and machine learning techniques, the deep learning revolution is a historic step in this field because the image segmentation method, which is tackled using deep architectures, is surpassing other approaches by a large margin in terms of accuracy and sometimes even efficiency.\cite{DBLP:journals/corr/Garcia-GarciaOO17}
 
-p3 introduce the our target, including we would like to use different module, what is our dataset, the rusult and comparing these result, and some other attentions.
+The application of image segmentation also includes medical image segmentation.
+Because of the high accuracy and efficiency, this deep learning method replaces extracting hand-crafted features of machine learning approaches and has become increasingly prevalent.\cite{hesamian2019deep}
 
-p4 introduce what module we choose
+Considering the importance of medical images to diagnose patients' situation, few doctors can conclude without these images.
+It is obvious there are no high-quality medical resources in underdeveloped areas, and many diseases cannot be diagnosed quickly and receive adequate medical treatment, resulting in high mortality.
+While with the help of medical image segmentation even an inexperienced doctor can draw accurate conclusions to patients' situations, which may save more lives.
 
-p5 introduce the challenge we meet
+However, challenges with Training Deep Models can not be ignored.
+Overfitting and gradient vanishing are two inevitable problems.
+The solutions to these problems are closely related to the specific model.
+At the same time, training time and memory should also be taken into consideration.
 
-p6 introduces the strucuter of this article
+Therefore, this project intends to know the performance of different model which has been used in the medical image field and compares some typical models such as Unet, Unet++, SegNet, Seg-Unet and ResUnet.
 
+The paper is structured as follows.
+Section 2 describes related work in the area of image segmentation, especially medical image segmentation.
+In Section 3, the five models which have been compared are described.
+Section 4 describes the dataset, the experiments and discusses the results.
+The conclusion and future work are provided in Section 5.
 
 
 \section{Literature Review}

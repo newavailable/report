@@ -1,5 +1,23 @@
 \begin{thebibliography}{10}
 
+\bibitem{pham2000current}
+Dzung~L Pham, Chenyang Xu, and Jerry~L Prince.
+\newblock Current methods in medical image segmentation.
+\newblock {\em Annual review of biomedical engineering}, 2(1):315--337, 2000.
+
+\bibitem{DBLP:journals/corr/Garcia-GarciaOO17}
+Alberto Garcia{-}Garcia, Sergio Orts{-}Escolano, Sergiu Oprea, Victor
+  Villena{-}Martinez, and Jos{\'{e}}~Garc{\'{\i}}a Rodr{\'{\i}}guez.
+\newblock A review on deep learning techniques applied to semantic
+  segmentation.
+\newblock {\em CoRR}, abs/1704.06857, 2017.
+
+\bibitem{hesamian2019deep}
+Mohammad~Hesam Hesamian, Wenjing Jia, Xiangjian He, and Paul Kennedy.
+\newblock Deep learning techniques for medical image segmentation: Achievements
+  and challenges.
+\newblock {\em Journal of digital imaging}, 32(4):582--596, 2019.
+
 \bibitem{zhang2018road}
 Zhengxin Zhang, Qingjie Liu, and Yunhong Wang.
 \newblock Road extraction by deep residual u-net.
