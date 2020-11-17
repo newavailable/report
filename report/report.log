@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.15)  16 NOV 2020 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.11.15)  17 NOV 2020 23:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-10-27> xparse <2020-03-03> (d:/latex/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(d:/latex/texlive/2020/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(d:/latex/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
 \c@section=\count176
@@ -22,6 +22,8 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
+) (d:/latex/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (d:/latex/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count183
@@ -29,36 +31,46 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) (c:/Users/jiaxi/Desktop/rp/report/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
- (c:/Users/jiaxi/Desktop/rp/report/report.bbl) [1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
-{d:/latex/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (c:/Users/jiaxi/Desktop/rp/report/report.aux) ) 
+Overfull \hbox (52.30627pt too wide) in paragraph at lines 15--17
+[]\OT1/cmr/m/n/10 p1 in-tro-duces three parts:the us-age of seg-men-ta-tion in med-i-cal im-age field,segmentation,
+ []
+
+
+Overfull \hbox (10.74124pt too wide) in paragraph at lines 36--39
+\OT1/cmr/m/n/10 learn-ing ar-chi-tec-ture ResUNet-a can be used. This is based on the en-coder/decoder
+ []
+
+[1
+
+{d:/latex/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (c:/Users/jiaxi/Desktop/rp/report/report.bbl [3]) [4] (c:/Users/jiaxi/Desktop/rp/report/report.aux) ) 
 Here is how much of TeX's memory you used:
- 397 strings out of 479485
- 7383 string characters out of 5872945
- 272161 words of memory out of 5000000
- 17482 multiletter control sequences out of 15000+600000
- 536339 words of font info for 33 fonts, out of 8000000 for 9000
+ 429 strings out of 479485
+ 8005 string characters out of 5872945
+ 279016 words of memory out of 5000000
+ 17508 multiletter control sequences out of 15000+600000
+ 537251 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,4n,49p,163b,139s stack positions out of 5000i,500n,10000p,200000b,80000s
-<d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on c:/Users/jiaxi/Desktop/rp/report/report.pdf (1 page, 36007 bytes).
+ 43i,4n,49p,353b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/latex/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on c:/Users/jiaxi/Desktop/rp/report/report.pdf (4 pages, 87570 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,9 +1,88 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{li2018h}
-Xiaomeng Li, Hao Chen, Xiaojuan Qi, Qi~Dou, Chi-Wing Fu, and Pheng-Ann Heng.
-\newblock H-denseunet: hybrid densely connected unet for liver and tumor
-  segmentation from ct volumes.
-\newblock {\em IEEE transactions on medical imaging}, 37(12):2663--2674, 2018.
+\bibitem{zhang2018road}
+Zhengxin Zhang, Qingjie Liu, and Yunhong Wang.
+\newblock Road extraction by deep residual u-net.
+\newblock {\em IEEE Geoscience and Remote Sensing Letters}, 15(5):749--753,
+  2018.
+
+\bibitem{weng2019artificial}
+Chi-Hung Weng, Chih-Li Wang, Yu-Jui Huang, Yu-Cheng Yeh, Chen-Ju Fu, Chao-Yuan
+  Yeh, and Tsung-Ting Tsai.
+\newblock Artificial intelligence for automatic measurement of sagittal
+  vertical axis using resunet framework.
+\newblock {\em Journal of clinical medicine}, 8(11):1826, 2019.
+
+\bibitem{lessmann2019iterative}
+Nikolas Lessmann, Bram van Ginneken, Pim~A de~Jong, and Ivana I{\v{s}}gum.
+\newblock Iterative fully convolutional neural networks for automatic vertebra
+  segmentation and identification.
+\newblock {\em Medical image analysis}, 53:142--155, 2019.
+
+\bibitem{zhang2019zebrafish}
+Kun Zhang, Hongbin Zhang, Huiyu Zhou, Danny Crookes, Ling Li, Yeqin Shao, and
+  Dong Liu.
+\newblock Zebrafish embryo vessel segmentation using a novel dual resunet
+  model.
+\newblock {\em Computational intelligence and neuroscience}, 2019, 2019.
+
+\bibitem{diakogiannis2020resunet}
+Foivos~I Diakogiannis, Fran{\c{c}}ois Waldner, Peter Caccetta, and Chen Wu.
+\newblock Resunet-a: a deep learning framework for semantic segmentation of
+  remotely sensed data.
+\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing},
+  162:94--114, 2020.
+
+\bibitem{jha2019resunet++}
+Debesh Jha, Pia~H Smedsrud, Michael~A Riegler, Dag Johansen, Thomas De~Lange,
+  P{\aa}l Halvorsen, and H{\aa}vard~D Johansen.
+\newblock Resunet++: An advanced architecture for medical image segmentation.
+\newblock In {\em 2019 IEEE International Symposium on Multimedia (ISM)}, pages
+  225--2255. IEEE, 2019.
+
+\bibitem{shah2018stacked}
+Sohil Shah, Pallabi Ghosh, Larry~S Davis, and Tom Goldstein.
+\newblock Stacked u-nets: a no-frills approach to natural image segmentation.
+\newblock {\em arXiv preprint arXiv:1804.10343}, 2018.
+
+\bibitem{ghosh2018stacked}
+Arthita Ghosh, Max Ehrlich, Sohil Shah, Larry~S Davis, and Rama Chellappa.
+\newblock Stacked u-nets for ground material segmentation in remote sensing
+  imagery.
+\newblock In {\em CVPR Workshops}, pages 257--261, 2018.
+
+\bibitem{sun2018stacked}
+Tao Sun, Zehui Chen, Wenxiang Yang, and Yin Wang.
+\newblock Stacked u-nets with multi-output for road extraction.
+\newblock In {\em CVPR Workshops}, pages 202--206, 2018.
+
+\bibitem{orlando2019u2}
+Jos{\'e}~Ignacio Orlando, Philipp Seeb{\"o}ck, Hrvoje Bogunovi{\'c}, Sophie
+  Klimscha, Christoph Grechenig, Sebastian Waldstein, Bianca~S Gerendas, and
+  Ursula Schmidt-Erfurth.
+\newblock U2-net: A bayesian u-net model with epistemic uncertainty feedback
+  for photoreceptor layer segmentation in pathological oct scans.
+\newblock In {\em 2019 IEEE 16th International Symposium on Biomedical Imaging
+  (ISBI 2019)}, pages 1441--1445. IEEE, 2019.
+
+\bibitem{shin2018medical}
+Hoo-Chang Shin, Neil~A Tenenholtz, Jameson~K Rogers, Christopher~G Schwarz,
+  Matthew~L Senjem, Jeffrey~L Gunter, Katherine~P Andriole, and Mark Michalski.
+\newblock Medical image synthesis for data augmentation and anonymization using
+  generative adversarial networks.
+\newblock In {\em International workshop on simulation and synthesis in medical
+  imaging}, pages 1--11. Springer, 2018.
+
+\bibitem{munawar2020segmentation}
+Faizan Munawar, Shoaib Azmat, Talha Iqbal, Christer Gr{\"o}nlund, and Hazrat
+  Ali.
+\newblock Segmentation of lungs in chest x-ray image using generative
+  adversarial networks.
+\newblock {\em IEEE Access}, 8:153535--153545, 2020.
+
+\bibitem{wang2018skin}
+Yujie Wang, Simon Sun, Jahow Yu, Dr~Yu, et~al.
+\newblock Skin lesion segmentation using atrous convolution via deeplab v3.
+\newblock {\em arXiv preprint arXiv:1807.08891}, 2018.
 
 \end{thebibliography}
