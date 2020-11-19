@@ -18,6 +18,50 @@ Mohammad~Hesam Hesamian, Wenjing Jia, Xiangjian He, and Paul Kennedy.
   and challenges.
 \newblock {\em Journal of digital imaging}, 32(4):582--596, 2019.
 
+\bibitem{jin2019dunet}
+Qiangguo Jin, Zhaopeng Meng, Tuan~D Pham, Qi~Chen, Leyi Wei, and Ran Su.
+\newblock Dunet: A deformable network for retinal vessel segmentation.
+\newblock {\em Knowledge-Based Systems}, 178:149--162, 2019.
+
+\bibitem{Long_2015_CVPR}
+Jonathan Long, Evan Shelhamer, and Trevor Darrell.
+\newblock Fully convolutional networks for semantic segmentation.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, June 2015.
+
+\bibitem{DBLP:journals/corr/RonnebergerFB15}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock {\em CoRR}, abs/1505.04597, 2015.
+
+\bibitem{DBLP:journals/corr/abs-1807-10165}
+Zongwei Zhou, Md~Mahfuzur~Rahman Siddiquee, Nima Tajbakhsh, and Jianming Liang.
+\newblock Unet++: {A} nested u-net architecture for medical image segmentation.
+\newblock {\em CoRR}, abs/1807.10165, 2018.
+
+\bibitem{zhou2020unet}
+Zongwei Zhou, Md~Mahfuzur~Rahman Siddiquee, Nima Tajbakhsh, and Jianming Liang.
+\newblock Unet++: Redesigning skip connections to exploit multiscale features
+  in image segmentation, 2020.
+
+\bibitem{simonyan2014very}
+Karen Simonyan and Andrew Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock {\em arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem{DBLP:journals/corr/BadrinarayananK15}
+Vijay Badrinarayanan, Alex Kendall, and Roberto Cipolla.
+\newblock Segnet: {A} deep convolutional encoder-decoder architecture for image
+  segmentation.
+\newblock {\em CoRR}, abs/1511.00561, 2015.
+
+\bibitem{do2019knee}
+Nhu-Tai Do, Sang-Don Joo, Hyung-Jeong Yang, Sung~Taek Jung, and Soo-Hyung Kim.
+\newblock Knee bone tumor segmentation from radiographs using seg-unet with
+  dice loss.
+\newblock In {\em Proc. of International Workshop on Frontiers in Computer
+  Vision (IWFCV 2019)}, 2019.
+
 \bibitem{zhang2018road}
 Zhengxin Zhang, Qingjie Liu, and Yunhong Wang.
 \newblock Road extraction by deep residual u-net.
@@ -102,5 +146,56 @@ Faizan Munawar, Shoaib Azmat, Talha Iqbal, Christer Gr{\"o}nlund, and Hazrat
 Yujie Wang, Simon Sun, Jahow Yu, Dr~Yu, et~al.
 \newblock Skin lesion segmentation using atrous convolution via deeplab v3.
 \newblock {\em arXiv preprint arXiv:1807.08891}, 2018.
+
+\bibitem{jegou2017one}
+Simon J{\'e}gou, Michal Drozdzal, David Vazquez, Adriana Romero, and Yoshua
+  Bengio.
+\newblock The one hundred layers tiramisu: Fully convolutional densenets for
+  semantic segmentation.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition workshops}, pages 11--19, 2017.
+
+\bibitem{paszke2016enet}
+Adam Paszke, Abhishek Chaurasia, Sangpil Kim, and Eugenio Culurciello.
+\newblock Enet: A deep neural network architecture for real-time semantic
+  segmentation.
+\newblock {\em arXiv preprint arXiv:1606.02147}, 2016.
+
+\bibitem{zhao2017pyramid}
+Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia.
+\newblock Pyramid scene parsing network.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 2881--2890, 2017.
+
+\bibitem{lin2017refinenet}
+Guosheng Lin, Anton Milan, Chunhua Shen, and Ian Reid.
+\newblock Refinenet: Multi-path refinement networks for high-resolution
+  semantic segmentation.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1925--1934, 2017.
+
+\bibitem{islam2018gated}
+Md~Amirul Islam, Mrigank Rochan, Shujon Naha, Neil~DB Bruce, and Yang Wang.
+\newblock Gated feedback refinement network for coarse-to-fine dense semantic
+  image labeling.
+\newblock {\em arXiv preprint arXiv:1806.11266}, 2018.
+
+\bibitem{huang2020unet}
+Huimin Huang, Lanfen Lin, Ruofeng Tong, Hongjie Hu, Qiaowei Zhang, Yutaro
+  Iwamoto, Xianhua Han, Yen-Wei Chen, and Jian Wu.
+\newblock Unet 3+: A full-scale connected unet for medical image segmentation.
+\newblock In {\em ICASSP 2020-2020 IEEE International Conference on Acoustics,
+  Speech and Signal Processing (ICASSP)}, pages 1055--1059. IEEE, 2020.
+
+\bibitem{kaggle_2018}
+Inc. Kaggle.
+\newblock 2018 data science bowl, 2018.
+
+\bibitem{shit2020cldice}
+Suprosanna Shit, Johannes~C Paetzold, Anjany Sekuboyina, Andrey Zhylka, Ivan
+  Ezhov, Alexander Unger, Josien~PW Pluim, Giles Tetteh, and Bjoern~H Menze.
+\newblock cldice--a topology-preserving loss function for tubular structure
+  segmentation.
+\newblock {\em arXiv preprint arXiv:2003.07311}, 2020.
 
 \end{thebibliography}
