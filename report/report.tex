@@ -4,19 +4,26 @@
 \usepackage{subfigure}
 \usepackage{booktabs}
 \usepackage{float}
+\usepackage{blindtext}
+
+\title{Comparison of UNet, UNet++, Res-Unet, SegNet and Seg-Unet for Segmentation of Cells' Nuclei image}
+\author{Meng Zhaoyi, Zhao jiaxi, Liu Yanjie, Chen Tianyu }
+\date{20 November 2020}
 
 \begin{document}
+\maketitle
 \setlength{\parindent}{2em}
 \bibliographystyle{unsrt}
 
+%If the content is uncessary, delete the following 3 lines
+\newpage
+\tableofcontents
+\newpage
 
 \begin{abstract}
     Nowadays, medical images are widely used in medical treatment, among which medical image segmentation is the most important part. With the continuous improvement of the accuracy of deep learning models, this method has gradually replaced the method of manually extracting features through machine learning.
 
-    In this paper,  we compared five models: Unet, Unet++, SegNet, Seg-Unet and ResUnet.
-    Among them, Unet, Unet++, and ResUnet are considered to be good fits, and there is no sign of overfitting or underfitting.
-    On the contrary, the effect of SegNet and SegUNet are not ideal. SegNet has over-fitting. Although SegUNet has no signs of over-fitting, the training and verification losses are too large.
-    What’s more, the dice coeffient of Unet++ and ResUnet are higher than 90\% which shows that these two models are the best.
+    In this paper, we compared five models: Unet, Unet++, SegNet, Seg- Unet and Res-Unet. Among them, Unet, Unet++, and ResUnet are considered to be good fits, and there is no sign of overfitting or underfitting. On the contrary, the effects of SegNet and Seg-Unet are not ideal. SegNet has over-fitting. Although Seg-Unet has no signs of over-fitting, the training and validation losses are too large. What’s more, the dice coefficient of Unet++ and Res-Unet on the testing dataset are higher than 90\%, which shows that these two models are the best.
 
 \end{abstract}
 
@@ -42,7 +49,7 @@ Overfitting and gradient vanishing are two inevitable problems.
 The solutions to these problems are closely related to the specific model.
 At the same time, training time and memory should also be taken into consideration.
 
-Therefore, this project intends to know the performance of different model which has been used in the medical image field and compares some typical models such as Unet, Unet++, SegNet, Seg-Unet and ResUnet.
+Therefore, this project intends to know the performance of different model which has been used in the medical image field and compares five typical models that include Unet, Unet++, SegNet, Seg-Unet and Res-Unet.
 
 The paper is structured as follows.
 Section 2 describes related work in the area of image segmentation, especially medical image segmentation.
@@ -168,7 +175,7 @@ The discovery of Unet++ helps recover more detailed information in medical image
 \end{figure}
 
 
-The figure2 shows some detail of the structure of the Unet++ network.
+Figure 2 shows some detail of the structure of the Unet++ network.
 The subfigure (a) describes that UNet++ improves the encoder and the decoder by adding nested dense convolutional blocks.
 So that UNet++ can bridge the semantic gap between the feature maps.
 Lines in subfigure (b) illustrates the first skip pathway in Unet++.
@@ -176,7 +183,7 @@ Cause the Unet++ model can operate in the accurate mode in which all segmentatio
 And the subfigure(c) shows the pruning procedure when the Unet++ model is trained in deep supervision.\cite{DBLP:journals/corr/abs-1807-10165,zhou2020unet}
 
 \subsection{SegNet}
-The figure shows the structure of SegNet.
+Figure 3 shows the structure of SegNet.
 The encoder network consists of 13 convolutional layers, which correspond to the first 13 convolutional layers in the VGG16 network \cite{simonyan2014very}, and every encoder network has its own corresponding decoder layer.\cite{DBLP:journals/corr/BadrinarayananK15}
 The encoder network alternately uses convolutional layers and max pooling layers. On the contrary, the decoder uses de convolutional layers and upsampling layers.
 And the softmax layer is used for pixel classification.
@@ -195,7 +202,7 @@ However, it is impossible to save all encoder feature maps (after downsampling).
 Therefore, the model only stores the maximum pooling index, which is the location of the largest feature value in each pooling window used for each encoder feature map.
 
 \subsection{Seg-Unet}
-The figure shows the structure of Seg-Unet. The Seg-Unet model combines U-Net and Seg-Net, for Seg-Net has auto-encoder architecture, and Unet is fit for medical image segmentation.
+Figure 4 shows the structure of Seg-Unet. The Seg-Unet model combines U-Net and Seg-Net, for Seg-Net has auto-encoder architecture, and Unet is fit for medical image segmentation.
 This network is a newly developed one that not many researchers have studied.
 
 \begin{figure}[H]
@@ -205,9 +212,9 @@ This network is a newly developed one that not many researchers have studied.
     \label{The model of Seg-Unet}
 \end{figure}
 \subsection{Res-Unet}
-ResUNet combines the advantages of U-Net architecture and Residual neural network.
+Res-Unet combines the advantages of U-Net architecture and Residual neural network.
 Generally the deeper the neural network, the better the performance of processing data, but usually there is no training algorithm to support it.
-ResUNet balances the complexity and accuracy of network training to achieve better results.\cite{zhang2019zebrafish}
+Res-Unet balances the complexity and accuracy of network training to achieve better results.\cite{zhang2019zebrafish}
 \subsubsection{U-Net}
 In order to obtain a good segmentation effect, use low-level information while retaining high-level semantic information.
 There are some good ways to solve this problem in U-net.
@@ -232,9 +239,9 @@ Which layer is the identity layer, this will be judged by yourself during networ
     \label{Residual Network: a building block}
 \end{figure}
 
-It can be seen that X is the input of this layer of residual block, also called F(x) is the residual, x is the input value, F(X) is the output after the first layer of linear change and activation, the figure shows In the residual network, F(x) is added to the input value X of this layer before activation after the linear change of the second layer, and then output after activation. Add X before the activation of the output value of the second layer. This path is called a shortcut connection.
-\subsubsection{ResUNet}
-All pre-activated residual units are used to build deep ResUNet. Combining U-Net and Residual network will simplify the training of the network, build a neural network with fewer parameters, and achieve better results in semantic segmentation. The specific network structure is shown in the figure below.\cite{zhang2018road}
+It can be seen from Figure 6 that X is the input of this layer of residual block, also called F(x) is the residual, x is the input value, F(X) is the output after the first layer of linear change and activation, the figure shows In the residual network, F(x) is added to the input value X of this layer before activation after the linear change of the second layer, and then output after activation. Add X before the activation of the output value of the second layer. This path is called a shortcut connection.
+\subsubsection{Res-Unet}
+All pre-activated residual units are used to build deep Res-Unet. Combining U-Net and Residual network will simplify the training of the network, build a neural network with fewer parameters, and achieve better results in semantic segmentation. The specific network structure is shown in Figure 7.\cite{zhang2018road}
 
 \begin{figure}[H]
     \centering
@@ -248,14 +255,22 @@ All pre-activated residual units are used to build deep ResUNet. Combining U-Net
 In this section, the nuclei dataset used for the experiments, the evaluation measures, and lastly, the results are discussed in detail. It is important to note that the experiment was conducted under the Windows environment. The models were implemented in Tensorflow 1.15 and trained on the Nvidia GTX-1080Ti.
 
 \subsection{Dataset}
-The dataset is obtained from Kaggle 2018 Data Science Bowl\cite{kaggle_2018}, which consists of 735 nuclei images. The images were acquired under various conditions and vary in the cell type, magnification, and imaging modality. Each nuclei image is annotated with a series of masks marked by experts, and each image is represented by an associate ImageID. Files belonging to an image are contained in a folder with the ImageID, and within each folder, there are two subfolders:
+The dataset is obtained from Kaggle 2018 Data Science Bowl\cite{kaggle_2018}, which consists of 735 cell's nuclei images. The images were acquired under various conditions and vary in the cell type, magnification, and imaging modality. Each nuclei image is annotated with a series of masks marked by experts, and each image is represented by an associate ImageID. Files belonging to an image are contained in a folder with the ImageID, and within each folder, there are two subfolders:
 
 \begin{itemize}
     \item[1.]“images” contains the image file
     \item[2.]“masks” contains the segmented masks of each nucleus.
 \end{itemize}
 
-In the pre-processing step, both training and testing data were down-sampled to keep the images light and manageable. The testing data's original sizes were recorded to up-sample the predicted masks and create correct run-length encodings later on. The pre-processing step is explained in a visual format on the simple example in Figure X. Among the dataset, 670 are used as training data, and 65 are chosen as testing data to measure the networks' performance.
+In the pre-processing step, both training and testing data were down-sampled to keep the images light and manageable. The testing data's original sizes were recorded to up-sample the predicted masks and create correct run-length encodings later on. An example of nuclei image and mask are shown in Figure 8. Among the dataset, 670 are used as training data, and 65 are chosen as testing data to measure the networks' performance.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{OrignalMask}
+    \caption{Example of nuclei image and mask.}
+    \label{Example of nuclei image and mask.}
+\end{figure}
+
 
 \subsection{Evaluation Measures}
 Generally speaking, semantic segmentation task performance can be measured based on two parameters: the Dice coefficient and the Jaccard coefficient. The Dice and the Jaccard coefficient is calculated by:
@@ -280,8 +295,8 @@ In the experiment, we adopt IoU as metrics and the combined loss as training los
 Training of models is carried out using the weight optimizer Adam(Adaptive Moment Estimation). The learning step for all architectures is 0.0001. The batch size is set to 16, and the total epochs for all architectures are 60, while the validation split rate is 10\%. The early stopper is adopted with the patience of 15 steps to obtain the best-trained model. Meanwhile, the Reduce Learning Rate On Plateau function is used to avoid training struck on plateau. The function is set to monitor validation loss to adjust the learning step accordingly. The patience for the function is set to 5 steps, and the factor equals 10\%.
 
 \subsection{Results}
-Figure 8 represents the loss curve of Unet, Unet++, and ResUnet on the validation dataset. Notice that the epoch for each model is different as we adopt the early stopper at the training stage. The orange line denotes the loss on the training dataset, while the blue line represents the loss on the validation dataset. As shown in Figure 1, the three models' validation losses decrease as the number of epochs increases, and all of the three models are considered well fitted as there is no sign of overfitting or underfitting. However, the loss curve of SegNet and SegUnet is not that smooth as the three models mentioned above.
-According to Figure 9, overfitting happened on the SegNet model as training loss is lower than validation loss, and the difference between training and validation losses seems to continue to expand with epoch. Besides, the validation loss curve is not smooth enough as there are many obvious changes on the curve. There is no sign of overfitting found on the SegUnet, but both training and validation losses are too high, which suggests that the model requires more epoch to be trained.
+Figure 9 represents the loss curve of Unet, Unet++, and Res-Unet on the training dataset. Notice that the epoch for each model is different as we adopt the early stopper at the training stage. The orange line denotes the loss on the training dataset, while the blue line represents the loss on the validation dataset. As shown in Figure 9, the three models' validation losses decrease as the number of epochs increases, and all of the three models are considered well fitted as there is no sign of overfitting or underfitting. However, the loss curve of SegNet and Seg-Unet is not that smooth as the three models mentioned above.
+According to Figure 10, overfitting happened on the SegNet model as training loss is lower than validation loss, and the difference between training and validation losses seems to continue to expand with epoch. Besides, the validation loss curve is not smooth enough as there are many obvious changes on the curve. There is no sign of overfitting found on the Seg-Unet, but both training and validation losses are too high, which suggests that the model requires more epoch to be trained.
 
 \begin{figure}[H]
     \subfigure[Unet]{
@@ -302,7 +317,7 @@ According to Figure 9, overfitting happened on the SegNet model as training loss
             %\caption{fig2}
         \end{minipage}
     }%
-    \caption{Loss Curves of Unet, Unet++ and ResUNet}
+    \caption{Loss Curves of Unet, Unet++ and Res-Unet}
 \end{figure}
 
 \begin{figure}[H]
@@ -320,10 +335,10 @@ According to Figure 9, overfitting happened on the SegNet model as training loss
             \centering
         \end{minipage}
     }
-    \caption{Loss Curves of SegNet and SegUNet}
+    \caption{Loss Curves of SegNet and Seg-Unet}
 \end{figure}
 
-Figure 10 shows the segmentation results of different models on the testing dataset. The Unet, Unet++, and ResUnet show the correct segmentation for objects on the image border, while SegNet and SegUnet did not achieve a satisfactory result. For SegUnet, all the segmentation results are larger than the ground truth, indicating that the model is underfitting. While for SegNet, most of the segmentation results are in the wrong shape and connected with each other. One of the reasons that could cause this phenomenon is because SegNet does not have a U architecture to do down-sample and up-sample on the image like Unet.
+Figure 11 shows the segmentation results of different models on the testing dataset. The Unet, Unet++, and Res-Unet show the correct segmentation for objects on the image border, while SegNet and SegUnet did not achieve a satisfactory result. For Seg-Unet, all the segmentation results are larger than the ground truth, indicating that the model is underfitting. While for SegNet, most of the segmentation results are in the wrong shape and connected with each other. One of the reasons that could cause this phenomenon is because SegNet does not have a U architecture to down-sample and up-sample the image like Unet.
 \begin{figure}[H]
     \centering
     \includegraphics[width=9cm]{SegmentationResults.png}
@@ -331,18 +346,19 @@ Figure 10 shows the segmentation results of different models on the testing data
     \label{2}
 \end{figure}
 
-Table 1 compares the performance of the five different models on the testing dataset. As we can see from the table, Unet++ obtains the highest dice score(0.929) among all the models, followed by ResUNet with a dice score of 0.9. The Unet has a relatively good score, while the performance of SegNet and SegUnet is not satisfactory, especially the SegUnet, which obtained the lowest score of 0.529.
+Table 1 compares the performance of the five different models on the testing dataset. As we can see from the table, Unet++ obtains the highest dice score(0.929) among all the models, followed by Res-Unet with a dice score of 0.9. The Unet has a relatively good score, while the performance of SegNet and Seg-Unet is not satisfactory, especially the SegUnet, which obtained the lowest score of 0.529.
 \begin{table}[H]
     \begin{tabular}{@{}cccccc@{}}
         \toprule
-        \textbf{}                     & \textbf{Unet}  & \textbf{Unet++} & \textbf{ResUnet} & \textbf{SegNet} & \textbf{SegUnet} \\ \midrule
-        \textbf{Dice Coeffient(mean)} & \textbf{0.864} & \textbf{0.929}  & \textbf{0.92}    & \textbf{0.734}  & \textbf{0.529}   \\ \bottomrule
+        \textbf{}                     & \textbf{Unet}  & \textbf{Unet++} & \textbf{Res-Unet} & \textbf{SegNet} & \textbf{Seg-Unet} \\ \midrule
+        \textbf{Dice Coeffient(mean)} & \textbf{0.864} & \textbf{0.929}  & \textbf{0.92}     & \textbf{0.734}  & \textbf{0.529}    \\ \bottomrule
     \end{tabular}
     \caption{Comparison of the neural network accuracy for the testing dataset}
 \end{table}
 
 \section{Conclusion}
-In the current study, we compared five different semantic segmentation models that include Unet, Unet++, ResUnet, SegNet, and SegUnet. The comparison was performed on the Kaggle nuclei image dataset. The result indicates that Unet++ has the best quality of segmentation in comparison with other networks. Further studies are connected with changing encoder net of different models. Instead of using common encoders, it would be better to use ResNet and Inseption for feature extraction.
+In the current study, we compared five different semantic segmentation models that include Unet, Unet++, Res-Unet, SegNet, and Seg-Unet. The comparison was performed on the Kaggle nuclei image dataset. The result indicates that Unet++ has the best quality of segmentation in comparison with other networks. Further studies are connected with changing encoder net of different models. Instead of using common encoders, it would be better to use ResNet and Inseption for feature extraction.
+
 
 \bibliography{bibfile}
 \end{document}
