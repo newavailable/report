@@ -1,0 +1,5 @@
+PWD c:/Users/jiaxi/Desktop/version_control/templet_version/report
+INPUT d:/latex/texlive/2020/texmf.cnf
+INPUT d:/latex/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT d:/latex/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/jiaxi/Desktop/version_control/templet_version/report/report.tex

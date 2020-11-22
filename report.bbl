@@ -1,0 +1,215 @@
+\begin{thebibliography}{10}
+
+\bibitem{pham2000current}
+Dzung~L Pham, Chenyang Xu, and Jerry~L Prince,
+\newblock ``Current methods in medical image segmentation,''
+\newblock {\em Annual review of biomedical engineering}, vol. 2, no. 1, pp.
+  315--337, 2000.
+
+\bibitem{DBLP:journals/corr/Garcia-GarciaOO17}
+Alberto Garcia{-}Garcia, Sergio Orts{-}Escolano, Sergiu Oprea, Victor
+  Villena{-}Martinez, and Jos{\'{e}}~Garc{\'{\i}}a Rodr{\'{\i}}guez,
+\newblock ``A review on deep learning techniques applied to semantic
+  segmentation,''
+\newblock {\em CoRR}, vol. abs/1704.06857, 2017.
+
+\bibitem{hesamian2019deep}
+Mohammad~Hesam Hesamian, Wenjing Jia, Xiangjian He, and Paul Kennedy,
+\newblock ``Deep learning techniques for medical image segmentation:
+  Achievements and challenges,''
+\newblock {\em Journal of digital imaging}, vol. 32, no. 4, pp. 582--596, 2019.
+
+\bibitem{jin2019dunet}
+Qiangguo Jin, Zhaopeng Meng, Tuan~D Pham, Qi~Chen, Leyi Wei, and Ran Su,
+\newblock ``Dunet: A deformable network for retinal vessel segmentation,''
+\newblock {\em Knowledge-Based Systems}, vol. 178, pp. 149--162, 2019.
+
+\bibitem{Long_2015_CVPR}
+Jonathan Long, Evan Shelhamer, and Trevor Darrell,
+\newblock ``Fully convolutional networks for semantic segmentation,''
+\newblock in {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, June 2015.
+
+\bibitem{DBLP:journals/corr/RonnebergerFB15}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox,
+\newblock ``U-net: Convolutional networks for biomedical image segmentation,''
+\newblock {\em CoRR}, vol. abs/1505.04597, 2015.
+
+\bibitem{DBLP:journals/corr/abs-1807-10165}
+Zongwei Zhou, Md~Mahfuzur~Rahman Siddiquee, Nima Tajbakhsh, and Jianming Liang,
+\newblock ``Unet++: {A} nested u-net architecture for medical image
+  segmentation,''
+\newblock {\em CoRR}, vol. abs/1807.10165, 2018.
+
+\bibitem{zhou2020unet}
+Zongwei Zhou, Md~Mahfuzur~Rahman Siddiquee, Nima Tajbakhsh, and Jianming Liang,
+\newblock ``Unet++: Redesigning skip connections to exploit multiscale features
+  in image segmentation,'' 2020.
+
+\bibitem{simonyan2014very}
+Karen Simonyan and Andrew Zisserman,
+\newblock ``Very deep convolutional networks for large-scale image
+  recognition,''
+\newblock {\em arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem{DBLP:journals/corr/BadrinarayananK15}
+Vijay Badrinarayanan, Alex Kendall, and Roberto Cipolla,
+\newblock ``Segnet: {A} deep convolutional encoder-decoder architecture for
+  image segmentation,''
+\newblock {\em CoRR}, vol. abs/1511.00561, 2015.
+
+\bibitem{do2019knee}
+Nhu-Tai Do, Sang-Don Joo, Hyung-Jeong Yang, Sung~Taek Jung, and Soo-Hyung Kim,
+\newblock ``Knee bone tumor segmentation from radiographs using seg-unet with
+  dice loss,''
+\newblock in {\em Proc. of International Workshop on Frontiers in Computer
+  Vision (IWFCV 2019)}, 2019.
+
+\bibitem{zhang2018road}
+Zhengxin Zhang, Qingjie Liu, and Yunhong Wang,
+\newblock ``Road extraction by deep residual u-net,''
+\newblock {\em IEEE Geoscience and Remote Sensing Letters}, vol. 15, no. 5, pp.
+  749--753, 2018.
+
+\bibitem{weng2019artificial}
+Chi-Hung Weng, Chih-Li Wang, Yu-Jui Huang, Yu-Cheng Yeh, Chen-Ju Fu, Chao-Yuan
+  Yeh, and Tsung-Ting Tsai,
+\newblock ``Artificial intelligence for automatic measurement of sagittal
+  vertical axis using resunet framework,''
+\newblock {\em Journal of clinical medicine}, vol. 8, no. 11, pp. 1826, 2019.
+
+\bibitem{lessmann2019iterative}
+Nikolas Lessmann, Bram van Ginneken, Pim~A de~Jong, and Ivana I{\v{s}}gum,
+\newblock ``Iterative fully convolutional neural networks for automatic
+  vertebra segmentation and identification,''
+\newblock {\em Medical image analysis}, vol. 53, pp. 142--155, 2019.
+
+\bibitem{zhang2019zebrafish}
+Kun Zhang, Hongbin Zhang, Huiyu Zhou, Danny Crookes, Ling Li, Yeqin Shao, and
+  Dong Liu,
+\newblock ``Zebrafish embryo vessel segmentation using a novel dual resunet
+  model,''
+\newblock {\em Computational intelligence and neuroscience}, vol. 2019, 2019.
+
+\bibitem{diakogiannis2020resunet}
+Foivos~I Diakogiannis, Fran{\c{c}}ois Waldner, Peter Caccetta, and Chen Wu,
+\newblock ``Resunet-a: a deep learning framework for semantic segmentation of
+  remotely sensed data,''
+\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing}, vol. 162,
+  pp. 94--114, 2020.
+
+\bibitem{jha2019resunet++}
+Debesh Jha, Pia~H Smedsrud, Michael~A Riegler, Dag Johansen, Thomas De~Lange,
+  P{\aa}l Halvorsen, and H{\aa}vard~D Johansen,
+\newblock ``Resunet++: An advanced architecture for medical image
+  segmentation,''
+\newblock in {\em 2019 IEEE International Symposium on Multimedia (ISM)}. IEEE,
+  2019, pp. 225--2255.
+
+\bibitem{shah2018stacked}
+Sohil Shah, Pallabi Ghosh, Larry~S Davis, and Tom Goldstein,
+\newblock ``Stacked u-nets: a no-frills approach to natural image
+  segmentation,''
+\newblock {\em arXiv preprint arXiv:1804.10343}, 2018.
+
+\bibitem{ghosh2018stacked}
+Arthita Ghosh, Max Ehrlich, Sohil Shah, Larry~S Davis, and Rama Chellappa,
+\newblock ``Stacked u-nets for ground material segmentation in remote sensing
+  imagery.,''
+\newblock in {\em CVPR Workshops}, 2018, pp. 257--261.
+
+\bibitem{sun2018stacked}
+Tao Sun, Zehui Chen, Wenxiang Yang, and Yin Wang,
+\newblock ``Stacked u-nets with multi-output for road extraction.,''
+\newblock in {\em CVPR Workshops}, 2018, pp. 202--206.
+
+\bibitem{orlando2019u2}
+Jos{\'e}~Ignacio Orlando, Philipp Seeb{\"o}ck, Hrvoje Bogunovi{\'c}, Sophie
+  Klimscha, Christoph Grechenig, Sebastian Waldstein, Bianca~S Gerendas, and
+  Ursula Schmidt-Erfurth,
+\newblock ``U2-net: A bayesian u-net model with epistemic uncertainty feedback
+  for photoreceptor layer segmentation in pathological oct scans,''
+\newblock in {\em 2019 IEEE 16th International Symposium on Biomedical Imaging
+  (ISBI 2019)}. IEEE, 2019, pp. 1441--1445.
+
+\bibitem{shin2018medical}
+Hoo-Chang Shin, Neil~A Tenenholtz, Jameson~K Rogers, Christopher~G Schwarz,
+  Matthew~L Senjem, Jeffrey~L Gunter, Katherine~P Andriole, and Mark Michalski,
+\newblock ``Medical image synthesis for data augmentation and anonymization
+  using generative adversarial networks,''
+\newblock in {\em International workshop on simulation and synthesis in medical
+  imaging}. Springer, 2018, pp. 1--11.
+
+\bibitem{munawar2020segmentation}
+Faizan Munawar, Shoaib Azmat, Talha Iqbal, Christer Gr{\"o}nlund, and Hazrat
+  Ali,
+\newblock ``Segmentation of lungs in chest x-ray image using generative
+  adversarial networks,''
+\newblock {\em IEEE Access}, vol. 8, pp. 153535--153545, 2020.
+
+\bibitem{chen2017deeplab}
+Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan~L
+  Yuille,
+\newblock ``Deeplab: Semantic image segmentation with deep convolutional nets,
+  atrous convolution, and fully connected crfs,''
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  vol. 40, no. 4, pp. 834--848, 2017.
+
+\bibitem{wang2018skin}
+Yujie Wang, Simon Sun, Jahow Yu, Dr~Yu, et~al.,
+\newblock ``Skin lesion segmentation using atrous convolution via deeplab v3,''
+\newblock {\em arXiv preprint arXiv:1807.08891}, 2018.
+
+\bibitem{jegou2017one}
+Simon J{\'e}gou, Michal Drozdzal, David Vazquez, Adriana Romero, and Yoshua
+  Bengio,
+\newblock ``The one hundred layers tiramisu: Fully convolutional densenets for
+  semantic segmentation,''
+\newblock in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition workshops}, 2017, pp. 11--19.
+
+\bibitem{paszke2016enet}
+Adam Paszke, Abhishek Chaurasia, Sangpil Kim, and Eugenio Culurciello,
+\newblock ``Enet: A deep neural network architecture for real-time semantic
+  segmentation,''
+\newblock {\em arXiv preprint arXiv:1606.02147}, 2016.
+
+\bibitem{zhao2017pyramid}
+Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia,
+\newblock ``Pyramid scene parsing network,''
+\newblock in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, 2017, pp. 2881--2890.
+
+\bibitem{lin2017refinenet}
+Guosheng Lin, Anton Milan, Chunhua Shen, and Ian Reid,
+\newblock ``Refinenet: Multi-path refinement networks for high-resolution
+  semantic segmentation,''
+\newblock in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, 2017, pp. 1925--1934.
+
+\bibitem{islam2018gated}
+Md~Amirul Islam, Mrigank Rochan, Shujon Naha, Neil~DB Bruce, and Yang Wang,
+\newblock ``Gated feedback refinement network for coarse-to-fine dense semantic
+  image labeling,''
+\newblock {\em arXiv preprint arXiv:1806.11266}, 2018.
+
+\bibitem{huang2020unet}
+Huimin Huang, Lanfen Lin, Ruofeng Tong, Hongjie Hu, Qiaowei Zhang, Yutaro
+  Iwamoto, Xianhua Han, Yen-Wei Chen, and Jian Wu,
+\newblock ``Unet 3+: A full-scale connected unet for medical image
+  segmentation,''
+\newblock in {\em ICASSP 2020-2020 IEEE International Conference on Acoustics,
+  Speech and Signal Processing (ICASSP)}. IEEE, 2020, pp. 1055--1059.
+
+\bibitem{kaggle_2018}
+Inc. Kaggle,
+\newblock ``2018 data science bowl,'' 2018.
+
+\bibitem{shit2020cldice}
+Suprosanna Shit, Johannes~C Paetzold, Anjany Sekuboyina, Andrey Zhylka, Ivan
+  Ezhov, Alexander Unger, Josien~PW Pluim, Giles Tetteh, and Bjoern~H Menze,
+\newblock ``cldice--a topology-preserving loss function for tubular structure
+  segmentation,''
+\newblock {\em arXiv preprint arXiv:2003.07311}, 2020.
+
+\end{thebibliography}
